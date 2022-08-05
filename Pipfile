@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"discord.py" = {version = "*", extras = ["voice"]}
+discord-ext-menus = {git = "https://github.com/Rapptz/discord-ext-menus"}
+loguru = "==0.6.0"
+humanize = "==4.0.0"
+psutil = "==5.9.0"
+jishaku = "==2.3.2"
+python-dateutil = "==2.8.2"
+
+[dev-packages]
+
+[scripts]
+start = "python -m bot"
